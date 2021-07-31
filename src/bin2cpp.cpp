@@ -20,7 +20,7 @@ std::string convertFilename(const std::string &input) {
     
     std::string temp;
     for(unsigned int i = 0; i < text.length(); ++i) {
-        if(text[i] == '.' || temp[i] == ' ')
+        if(text[i] == '.' || text[i] == ' ' || text[i] == '_')
             temp += '_';
         else if(isalpha(text[i]) || isdigit(text[i]))
             temp += text[i];
@@ -199,7 +199,7 @@ int main(int argc, char **argv) {
         std::cerr << "Invalid language selection please use either c or cpp or cpp17 or go\n";
         exit(EXIT_FAILURE);
     }
-    std::string filen = convertFilename(argv[1]);
+    std::string filen = convertFilename(argv[2]);
     std::fstream file;
     file.open(argv[1], std::ios::in | std::ios::binary);
     if(!file.is_open()) {
