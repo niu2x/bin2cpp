@@ -1,0 +1,7 @@
+/home/niu2x/project/bin2cpp/build/CMakeFiles/install/strip.dir
+/home/niu2x/project/bin2cpp/build/CMakeFiles/install/local.dir
+/home/niu2x/project/bin2cpp/build/CMakeFiles/install.dir
+/home/niu2x/project/bin2cpp/build/CMakeFiles/list_install_components.dir
+/home/niu2x/project/bin2cpp/build/CMakeFiles/rebuild_cache.dir
+/home/niu2x/project/bin2cpp/build/CMakeFiles/edit_cache.dir
+/home/niu2x/project/bin2cpp/build/CMakeFiles/bin2cpp.dir
