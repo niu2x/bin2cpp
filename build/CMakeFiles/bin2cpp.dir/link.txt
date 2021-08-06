@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/bin2cpp.dir/src/bin2cpp.cpp.o -o bin2cpp 
